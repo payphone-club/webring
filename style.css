@@ -1,62 +1,5 @@
-@font-face {
-	font-family: "Eurostile T";
-	font-weight: bold;
-	src: url("/fonts/EurostileTBla.eot");
-	src: local("☺"),
-		url("/fonts/EurostileTBla.woff") format("woff"),
-		url("/fonts/EurostileTBla.ttf") format("truetype"),
-		url("/fonts/EurostileTBla.svg") format("svg");
-}
-
-@font-face {
-	font-family: "Eurostile T";
-	font-weight: medium;
-	src: url("/fonts/EurostileT.eot");
-	src: local("☺"),
-		url("/fonts/EurostileT.woff") format("woff"),
-		url("/fonts/EurostileT.ttf") format("truetype"),
-		url("/fonts/EurostileT.svg") format("svg");
-}
-@font-face {
-  font-family: "Bell Gothic";
-  font-weight: medium;
-  src: url("/fonts/bellgothic.eot");
-  src: local("☺"),
-    url("/fonts/bellgothic.woff") format("woff"),
-    url("/fonts/bellgothic.otf") format("opentype"),
-    url("/fonts/bellgothic.svg#filename") format("svg");
-  }
-@font-face {
-  font-family: "Bell Gothic";
-  font-weight: bold;
-  src: url("/fonts/bellgothic-black.eot");
-  src: local("☺"),
-    url("/fonts/bellgothic-black.woff") format("woff"),
-    url("/fonts/bellgothic-black.otf") format("opentype"),
-    url("/fonts/bellgothic-black.svg#filename-ital") format("svg");
-  }
-
-
-.product {
-	border-left: 4mm solid #1F6FB0;
-	padding: 4mm;
-	margin: 4mm;
-	margin-bottom: 8mm;
-}
-.product-title {
-	font-family: "Eurostile T";
-	font-weight: bold;
-	font-size: 150%;
-}
-.product-price {
-	font-family: "Eurostile T";
-	font-weight: bold;
-	font-size: 120%;
-}
-.align-cart { float: right; }
 h1 {	height: 0.5in;
 	background: #F5B71B;
-	font-family: "Eurostile T";
 	border-bottom: 0.5em solid #1F6FB0;
 }
 .logo {	margin-left: 0.5em;
@@ -66,7 +9,6 @@ h1 {	height: 0.5in;
 	height: 1in;
 }
 h2, h3 {
-	font-family: "Eurostile T";
 	font-weight: medium;
 }
 h2 {	font-size: 225%; }
@@ -74,6 +16,7 @@ h3 {	font-size: 150%; }
 body {	background: #ddd;
 	padding: 0;
 	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 div.body {
 	margin: 0;
@@ -81,8 +24,3 @@ div.body {
 	padding-top: 0;
 	max-width: 8in;
 }
-p {	font-family: "Bell Gothic"; }
-img.product-image {
-	float: left;
-}
-input {	clear: right; }
