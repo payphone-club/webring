@@ -1,4 +1,4 @@
-# Shadytel Webring
+# Freetel Webring
 
 We like phones.
 
@@ -6,7 +6,7 @@ We like phones.
 
 **Add the webring links to your site first**, then fork this repo, add
 your site's name and URL to the
-[sites.js](https://github.com/Shadytel/webring/blob/master/sites.js)
+[sites.js](https://github.com/payphone-club/webring/blob/master/sites.js)
 file, and send a pull request.
 
 ## How to add the webring to your site
@@ -22,10 +22,10 @@ hot butter. Just make it yours.
 
 | Link Description | URL |
 |---|---|
-| Previous site | `https://shady.tel/ring/prev.html` |
-| Next site | `https://shady.tel/ring/next.html` |
-| Random site | `https://shady.tel/ring/random.html` |
-| List all sites | `https://shady.tel/ring` |
+| Previous site | `https://payphone.club/ring/prev.html` |
+| Next site | `https://payphone.club/ring/next.html` |
+| Random site | `https://payphone.club/ring/random.html` |
+| List all sites | `https://payphone.club/ring` |
 
 The link will work out your position in the list and redirect visitors to the next site in the webring.
 
@@ -33,8 +33,8 @@ The link will work out your position in the list and redirect visitors to the ne
 
 You can retrieve a list of the webring links (next/previous/random/list/join) as either an HTML unstyled-list partial or a JSON file from:
 
-* [HTML](https://shady.tel/ring/links.html)
-* [JSON](https://shady.tel/ring/links.json)
+* [HTML](https://payphone.club/ring/links.html)
+* [JSON](https://payphone.club/ring/links.json)
 
 ## Privacy First
 
