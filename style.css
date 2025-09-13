@@ -1,19 +1,10 @@
-h1 {	height: 0.5in;
-	background: #F5B71B;
-	border-bottom: 0.5em solid #1F6FB0;
+h1 {	
+	height: 0.5in;
+	background: #F3CF1D;
+	border-bottom: 0.5em solid #0091C9;
 }
-.logo {	margin-left: 0.5em;
-	margin-right: 0.5em;
-	margin-top: -2mm;
-	float: left;
-	height: 1in;
-}
-h2, h3 {
-	font-weight: medium;
-}
-h2 {	font-size: 225%; }
-h3 {	font-size: 150%; }
-body {	background: #ddd;
+body {	
+	background: #ddd;
 	padding: 0;
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
